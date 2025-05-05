@@ -1,0 +1,89 @@
+
+@font-face {
+    font-family: font;
+    src: url(font/Neucha.ttf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image: url(img/кот\ переходник3.png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+main{
+    background-color: #faf3da;
+}
+.back-button {
+    padding: 10px 20px;
+    background-color: #3f94e4;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 30px 25px;
+    border: 2px solid black; /* Update dynamically for light/dark mode */
+    transition:
+    opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 80ms,
+    transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) 80ms;
+}
+.header{
+    padding-left: 550px;
+    padding-top: 250px;
+    color: #ce8fc6;
+    font-size: 40px;
+    text-align: center;
+    font-family: font;
+}
+h2{
+    color: #a7a8fc;
+    font-size: 30px;
+    font-family: font;
+    margin-bottom: 7px;
+    margin-left: 60px;
+    text-align: start;
+}
+p{
+    color: #8b7382;
+    text-align: justify;
+    font-size: 25px;
+    font-family: font;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+h1{
+    color: #8fb7ce;
+    text-align: center;
+    font-family: font;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+ul{
+    color: #8b7382;
+    text-align: center;
+    font-size: 25px;
+    font-family: font;
+}
+h4{
+    color: #8b7382;
+    text-align: justify;
+    font-size: 25px;
+    font-family: font;
+    margin-left: 50px;
+}
+img{
+    height: 350px;
+    padding-left: 150px;
+}
+.one{
+    height: 500px;
+    padding-left: 150px;
+}
+li{
+    margin-bottom: 8px;
+}
+br{
+    margin-bottom: 7px;
+}

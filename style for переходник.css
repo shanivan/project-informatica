@@ -1,0 +1,59 @@
+@font-face {
+    font-family: font;
+    src: url(font/Comfortaa-Regular.ttf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image: url(img/кот\ переходник2.png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+main{
+    background-color: #89c997;
+}
+.header{
+    padding-right: 240px;
+    padding-top: 250px;
+    color: #fce8a7;
+    font-size: 40px;
+    text-align: center;
+    font-family: font;
+}
+h2{
+    color: #fce8a7;
+    text-align: start;
+    font-size: 25px;
+    font-family: font;
+    margin-bottom: 7px;
+    margin-left: 60px;
+}
+p{
+    color: #fff565;
+    text-align: justify;
+    font-size: 20px;
+    font-family: font;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+h1{
+    color: #ff7a7a;
+    text-align: center;
+    font-family: font;
+    margin-bottom: 10px;
+}
+ol{
+    color: #fff565;
+    text-align: center;
+    font-size: 20px;
+    font-family: font;
+}
+li{
+    margin-bottom: 8px;
+}
+br{
+    margin-bottom: 10px;
+}

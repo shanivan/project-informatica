@@ -1,0 +1,71 @@
+@font-face {
+    font-family: font;
+    src: url(font/Neucha.ttf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image: url(img/кот\ переходник5.png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+main{
+    background-color: #a54e56;
+}
+.header{
+    padding-left: 550px;
+    padding-top: 250px;
+    font-size: 40px;
+    text-align: center;
+    font-family: font;
+    color: rgb(247, 230, 210)
+}
+h2{
+    color: #a7a8fc;
+    font-size: 30px;
+    font-family: font;
+    margin-bottom: 7px;
+    margin-left: 60px;
+    text-align: start;
+}
+p{
+    color: #a7e4fc;
+    text-align: justify;
+    font-size: 25px;
+    font-family: font;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+h1{
+    color: #96c9af;
+    text-align: center;
+    font-family: font;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+ol{
+    color: #a7e4fc;
+    text-align: center;
+    font-size: 25px;
+    font-family: font;
+}
+h4{
+    color: #a7e4fc;
+    text-align: justify;
+    font-size: 25px;
+    font-family: font;
+    margin-left: 50px;
+}
+img{
+    height: 350px;
+    padding-left: 150px;
+}
+br{
+    margin-bottom: 6px;
+}
+li{
+    margin-bottom: 8px;
+}
