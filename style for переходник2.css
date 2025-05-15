@@ -18,13 +18,13 @@ main{
 }
 .back-button {
     padding: 10px 20px;
-    background-color: #3f94e4;
-    color: white;
+    background-color: #ce8fc6;
+    color: black;
     border-radius: 50%;
     cursor: pointer;
     font-size: 16px;
     margin: 30px 25px;
-    border: 2px solid black; /* Update dynamically for light/dark mode */
+    border: 2px solid black;
     transition:
     opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 80ms,
     transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) 80ms;
@@ -86,4 +86,20 @@ li{
 }
 br{
     margin-bottom: 7px;
+}
+nav{
+    background-color: #faf3da;
+}
+.content{
+    background-color: #faf3da;
+    font-family: font;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    color: #8fb7ce;
+    font-size: 18px;
+}
+a:hover{
+    color: #8b7382;
 }

@@ -20,11 +20,11 @@ h1{
     color: rgb(214, 46, 214);
 }
 main{
-    background-color: #98bda0;
+    background-color: #98bda7;
 }
 .header{
-    padding-right: 240px;
-    padding-top: 250px;
+    padding-right: 40px;
+    padding-top: 350px;
     color: #fce8a7;
     font-size: 40px;
     text-align: center;
@@ -48,7 +48,7 @@ p{
 }
 h1{
     color: #ff7a7a;
-    text-align: center;
+    text-align: left;
     font-family: font;
     margin-bottom: 10px;
 }
@@ -63,4 +63,33 @@ li{
 }
 br{
     margin-bottom: 10px;
+}
+.back-button {
+    padding: 10px 20px;
+    background-color: #ff7a7a;
+    color: #fce8a7;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 30px 25px;
+    border: 2px solid black; /* Update dynamically for light/dark mode */
+    transition:
+    opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 80ms,
+    transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) 80ms;
+}
+img{
+    width: 600px;
+}
+footer{
+    background-color: #98bda0;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    color: #13191d;
+    font-size: 18px;
+    font-family: font;
+}
+a:hover{
+    color: #fff565;
 }

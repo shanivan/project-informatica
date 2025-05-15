@@ -21,6 +21,7 @@ h1{
 }
 main{
     background-color: #5361dd;
+    height: 9500px;
 }
 .back-button {
     padding: 10px 20px;
@@ -47,7 +48,7 @@ h2, h3, h5{
     color: #f88e8e;
     font-size: 30px;
     font-family: font;
-    margin-bottom: 7px;
+    margin-bottom: 16px;
     margin-left: 60px;
     text-align: start;
 }
@@ -80,7 +81,7 @@ h4{
     margin-left: 50px;
 }
 img{
-    height: 350px;
+    width: 1000px;
     padding-left: 150px;
 }
 br{
@@ -91,4 +92,25 @@ li{
 }
 i{
     color: #5361dd;
+}
+.prim{
+    text-align: center;
+    color: #13191d;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.h{
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: #3f94e4;
+    font-size: 18px;
+}
+a:hover{
+    color: #8fb7ce;
+}
+footer{
+    background-color: #5361dd;
+    height: 160px;
 }
